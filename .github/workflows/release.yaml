@@ -11,5 +11,5 @@ jobs:
     uses: lsc-sde/lsc-sde/.github/workflows/helm-release.yaml@main
     with:
       directory: iac/helm/aks-dns-operator
-      yamlPath: aks_dns_chart_version
+      yamlPath: aks_dns
     secrets: inherit
